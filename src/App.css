@@ -19,8 +19,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: top;
+  font-size: calc(5px + 2vmin);
   color: white;
 }
 
@@ -35,4 +35,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.word-list-entry {
+  background-color: cadetblue;
+  text-align: left;
+  color: black;
+  width: 90vw;
+}
+
+#search-bar {
+  max-height: 15vh;
 }
